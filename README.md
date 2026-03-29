@@ -1,7 +1,10 @@
 # Triton inference Server
 O Triton inference server, ou tambem conhecido como NVIDIA Dynamo, e uma ferramenta open source que padroniza e otimiza a implantacao de modelos de IA em escala em ambiente de producao. Ele atua como um servidor de inferencia que permite que aplicacoes se comuniquem com modelos de Machine Learning e gere resultados de forma eficiente.
 
-![arch](./img/arch.jpg)
+<p align="center">
+  <img src="./img/arch.jpg" width="600"/>
+</p>
+
 
 
 ## Iniciando o projeto
@@ -53,7 +56,7 @@ Legal, agora ja temos o ambiente pronto e podemos comecar
 
 ### 
 
-## Como iniciar o servidor backend Triton inference server:
+## Iniciando o servidor backend Triton inference server:
 
 Para iniciar o servidor backend, devemos executar a imagem que construimos e que colocamos o nome de `custom-triton`. Esta docker image, sera responsavel por fazer todo o processo de construcao do backend do nosso triton inference server.
 
